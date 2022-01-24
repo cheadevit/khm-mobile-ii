@@ -1,0 +1,279 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:5:4-41:19
+MERGED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f8fc189ff76d5c649aafdd31bc3d2333/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f8fc189ff76d5c649aafdd31bc3d2333/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe9943a3a5047a41d771ecd501bb6370/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe9943a3a5047a41d771ecd501bb6370/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7a1c6e780b5901c5c6ba597df670b7d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7a1c6e780b5901c5c6ba597df670b7d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf37ac08cdad525e46b47ab5b0406817/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf37ac08cdad525e46b47ab5b0406817/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+MERGED from [:shared_preferences_android] /Users/apple/StudioProjects/flutter_blue/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_maps_flutter] /Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/StudioProjects/flutter_blue/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/apple/StudioProjects/flutter_blue/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:flutter_image_compress] /Users/apple/StudioProjects/flutter_blue/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:image_cropper] /Users/apple/StudioProjects/flutter_blue/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/038f7cf347fc2c4e4c41b38d1f5e7939/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b057bed7a1bc435f0312b0fcfcfc964c/heifwriter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f8fc189ff76d5c649aafdd31bc3d2333/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe9943a3a5047a41d771ecd501bb6370/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7a1c6e780b5901c5c6ba597df670b7d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/apple/.gradle/caches/transforms-2/files-2.1/789056b2c6f3105b84451c617729bd65/jetified-ucrop-2.2.7/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e826fe49562abada5d181756485a861/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/88e514d819cd691a05d7f01d8820d6ee/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/0fe786355672e38948fbc9c1fff747a3/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/1cfe8ee384ca28182df52c824e57e5c0/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6704617e5cf2b2cf363841e778f9329d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7c1a7b78a9eb87d9a948f050e96a4e5d/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0d6ff85b25e6e52b269b3e009bb6194a/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf37ac08cdad525e46b47ab5b0406817/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9611d01e277af0a0bee38db16de6184f/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/992030e32b5b233f7b54200907a8c687/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d71f750e18beb8ec39e98e4d040998e/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/eb99decb44820e6dccd0fcc1b7518938/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/1b748a836e371cc29277a1943e291316/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/09be362b5b17ae2df23db8d40e6cc2f1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:3:5-77
+	android:name
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:3:22-74
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:4:5-84
+	android:name
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml:4:22-82
+uses-sdk
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/apple/StudioProjects/flutter_blue/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/apple/StudioProjects/flutter_blue/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/StudioProjects/flutter_blue/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/StudioProjects/flutter_blue/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/apple/StudioProjects/flutter_blue/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/apple/StudioProjects/flutter_blue/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_image_compress] /Users/apple/StudioProjects/flutter_blue/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:55
+MERGED from [:flutter_image_compress] /Users/apple/StudioProjects/flutter_blue/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:55
+MERGED from [:image_cropper] /Users/apple/StudioProjects/flutter_blue/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/apple/StudioProjects/flutter_blue/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/038f7cf347fc2c4e4c41b38d1f5e7939/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/038f7cf347fc2c4e4c41b38d1f5e7939/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b057bed7a1bc435f0312b0fcfcfc964c/heifwriter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b057bed7a1bc435f0312b0fcfcfc964c/heifwriter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f8fc189ff76d5c649aafdd31bc3d2333/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f8fc189ff76d5c649aafdd31bc3d2333/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe9943a3a5047a41d771ecd501bb6370/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe9943a3a5047a41d771ecd501bb6370/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7a1c6e780b5901c5c6ba597df670b7d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b7a1c6e780b5901c5c6ba597df670b7d/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/apple/.gradle/caches/transforms-2/files-2.1/789056b2c6f3105b84451c617729bd65/jetified-ucrop-2.2.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.7] /Users/apple/.gradle/caches/transforms-2/files-2.1/789056b2c6f3105b84451c617729bd65/jetified-ucrop-2.2.7/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e826fe49562abada5d181756485a861/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e826fe49562abada5d181756485a861/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/88e514d819cd691a05d7f01d8820d6ee/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/88e514d819cd691a05d7f01d8820d6ee/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/0fe786355672e38948fbc9c1fff747a3/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/0fe786355672e38948fbc9c1fff747a3/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/1cfe8ee384ca28182df52c824e57e5c0/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/1cfe8ee384ca28182df52c824e57e5c0/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6704617e5cf2b2cf363841e778f9329d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6704617e5cf2b2cf363841e778f9329d/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/22a5d9f52d495a432176451a4c4ba982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2f70304b103eacfab05dbe55739e869f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/49dee3543bc65746b6bba9f83aa0b18a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2ee35bfe9d2e9019f071c4a047a96db2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/361553562ce35cf8cf447832c4a7d1ec/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/86cf751735e9e9dd0416cce35c4a71a1/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7c1a7b78a9eb87d9a948f050e96a4e5d/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7c1a7b78a9eb87d9a948f050e96a4e5d/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0d6ff85b25e6e52b269b3e009bb6194a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0d6ff85b25e6e52b269b3e009bb6194a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf37ac08cdad525e46b47ab5b0406817/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf37ac08cdad525e46b47ab5b0406817/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9611d01e277af0a0bee38db16de6184f/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9611d01e277af0a0bee38db16de6184f/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bae4382a703142a8f82a100a412243f1/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/992030e32b5b233f7b54200907a8c687/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/992030e32b5b233f7b54200907a8c687/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d71f750e18beb8ec39e98e4d040998e/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d71f750e18beb8ec39e98e4d040998e/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/eb99decb44820e6dccd0fcc1b7518938/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/eb99decb44820e6dccd0fcc1b7518938/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/15faa7fdc535e832982b4615d300cb77/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/1b748a836e371cc29277a1943e291316/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/1b748a836e371cc29277a1943e291316/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268ebc0b2bd661fb18fff0cceeca14c7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6e0f82970a69a6b386ee45a08ac362fe/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/09be362b5b17ae2df23db8d40e6cc2f1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/09be362b5b17ae2df23db8d40e6cc2f1/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:flutter_image_compress] /Users/apple/StudioProjects/flutter_blue/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-52
+	android:targetSdkVersion
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/apple/StudioProjects/flutter_blue/android/app/src/debug/AndroidManifest.xml:6:22-64
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker] /Users/apple/StudioProjects/flutter_blue/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from [:camera] /Users/apple/StudioProjects/flutter_blue/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/apple/StudioProjects/flutter_blue/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
