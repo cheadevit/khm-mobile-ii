@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "merged": "/Users/apple/Desktop/khm-mobile-ii/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "merged": "/Users/apple/Desktop/khm-mobile-ii/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/apple/StudioProjects/flutter_blue/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "merged": "/Users/apple/Desktop/khm-mobile-ii/build/google_maps_flutter/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
     }
 ]

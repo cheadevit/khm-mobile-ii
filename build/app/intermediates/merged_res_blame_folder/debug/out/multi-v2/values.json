@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/StudioProjects/flutter_blue/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/apple/Desktop/khm-mobile-ii/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/789056b2c6f3105b84451c617729bd65/jetified-ucrop-2.2.7/res/values/values.xml",
@@ -20,6 +20,25 @@
                         "endLines": "82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,332,380,381,382,383,384,385,386,387,1918,1925,1934,1943,1952,1958,3513,3535",
                         "endColumns": "89,91,48,58,78,64,65,62,60,56,53,89,88,87,55,70,77,48,69,76,85,87,92,81,66,65,60,84,77,64,66,57,74,60,58,74,60,59,55,50,60,63,60,58,72,68,67,43,125,61,57,48,185,47,45,12,12,12,12,12,12,24,24",
                         "endOffsets": "5740,5832,5881,5940,6019,6084,6150,6213,6274,6331,6385,6475,6564,6652,6708,6779,6857,6906,6976,7053,7139,7227,7320,7402,15621,15687,15748,15833,15911,15976,16043,16101,16176,16237,16296,16371,16432,16492,16548,16599,16660,16724,16785,16844,16917,16986,21731,26098,26224,26286,26344,26393,26579,26627,26673,131605,132026,132572,133116,133568,133936,215742,216666"
+                    }
+                },
+                {
+                    "source": "/Users/apple/Desktop/khm-mobile-ii/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
+                    },
+                    "to": {
+                        "startLines": "1477,1482",
+                        "startColumns": "4,4",
+                        "startOffsets": "97299,97596",
+                        "endLines": "1481,1484",
+                        "endColumns": "12,12",
+                        "endOffsets": "97591,97760"
                     }
                 },
                 {
@@ -96,25 +115,6 @@
                         "endLines": "2112,2119,2130,3287,3292",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "143016,143401,143998,202981,203251"
-                    }
-                },
-                {
-                    "source": "/Users/apple/StudioProjects/flutter_blue/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
-                    },
-                    "to": {
-                        "startLines": "1477,1482",
-                        "startColumns": "4,4",
-                        "startOffsets": "97299,97596",
-                        "endLines": "1481,1484",
-                        "endColumns": "12,12",
-                        "endOffsets": "97591,97760"
                     }
                 },
                 {

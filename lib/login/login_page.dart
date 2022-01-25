@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_blue/forget_password/forget_password.dart';
 import 'package:flutter_blue/signup/signup.dart';
 import 'package:http/http.dart' as http;
 
@@ -13,8 +14,10 @@ class LoginPage extends StatefulWidget {
   _LoginPageState createState() => _LoginPageState();
 }
 
-
 class _LoginPageState extends State<LoginPage> {
+  TextEditingController phoneNumberController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
+  bool isVisible = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,9 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20),
-                      topRight: Radius.circular(20)
-                  )
-              ),
+                      topRight: Radius.circular(20))),
               child: Column(
                 children: [
                   SizedBox(
@@ -62,17 +63,21 @@ class _LoginPageState extends State<LoginPage> {
                     height: 3,
                   ),
                   TextField(
-                    controller: null,
+                    controller: phoneNumberController,
                     onChanged: (value) {
                       setState(() {});
                     },
                     decoration: InputDecoration(
-                        // icon: Icon(Icons.mail),
                         prefixIcon: Icon(Icons.phone),
-                        // suffixIcon: GestureDetector(
-                        //     onTap: () {}, child: Icon(Icons.close)),
-                        hintText: '096-xxx-xxxx',
-                        labelText: 'Phone Number',
+                        suffixIcon: phoneNumberController.text.isEmpty
+                            ? Text('')
+                            : GestureDetector(
+                            onTap: () {
+                              phoneNumberController.clear();
+                            },
+                            child: Icon(Icons.close)),
+                        hintText: 'Enter Your Phone Number',
+                        // labelText: 'Phone Number',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
                             borderSide:
@@ -97,23 +102,24 @@ class _LoginPageState extends State<LoginPage> {
                     height: 3,
                   ),
                   TextField(
-                    // obscureText: null,
+                    obscureText: isVisible,
                     controller: null,
                     onChanged: (value) {
                       print(value);
                     },
                     //
                     decoration: InputDecoration(
-                        // icon: Icon(Icons.mail),
                         prefixIcon: Icon(Icons.lock),
                         suffixIcon: GestureDetector(
                             onTap: () {
-                              // isVisible = !isVisible;
+                              isVisible = !isVisible;
                               setState(() {});
                             },
-                            child: Icon(Icons.visibility_off)),
-                        hintText: 'type your password',
-                        labelText: 'Password',
+                            child: Icon(isVisible
+                                ? Icons.visibility_off
+                                : Icons.visibility)),
+                        hintText: 'Enter your password',
+                        // labelText: 'Password',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
                             borderSide:
@@ -143,7 +149,10 @@ class _LoginPageState extends State<LoginPage> {
                     height: 15,
                   ),
                   Container(
-                    child: Divider(color: Colors.grey, height: 1,),
+                    child: Divider(
+                      color: Colors.grey,
+                      height: 1,
+                    ),
                   ),
                   _buildSignupButton()
                 ],
@@ -167,7 +176,14 @@ class _LoginPageState extends State<LoginPage> {
             color: Colors.grey,
           ),
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => ForgetPasswordPage(
+                    // onFileChanged: (String imageUrl) {},
+                  )));
+        },
       ),
     );
   }
@@ -232,7 +248,12 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpPage(onFileChanged: (String imageUrl) {  },)));
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => SignUpPage(
+                        onFileChanged: (String imageUrl) {},
+                      )));
         },
       ),
     );

@@ -10,11 +10,10 @@ import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
 class SignUpPage extends StatefulWidget {
-  // const SignUpPage({Key? key}) : super(key: key);
+
+  SignUpPage({Key? key, required this.onFileChanged}): super(key: key);
 
   final Function(String imageUrl) onFileChanged;
-
-  SignUpPage({required this.onFileChanged});
 
   @override
   _SignUpPageState createState() => _SignUpPageState();
@@ -23,27 +22,8 @@ class SignUpPage extends StatefulWidget {
 class _SignUpPageState extends State<SignUpPage> {
   final ImagePicker _picker = ImagePicker();
   String? imageUrl;
-  String status = '';
-  late String base64Image;
-  late File tmpFile;
-  String error = 'Error';
-
-  setStatus(String message) {
-    setState(() {
-      status = message;
-    });
-  }
-
-  upload(String fileName) {
-    http.post(Uri.http('http://local.co', 'ddd'), body: {
-      "image": base64Image,
-      "name": fileName,
-    }).then((result) {
-      setStatus(result.statusCode == 200 ? result.body : error);
-    }).catchError((error) {
-      setStatus(error);
-    });
-  }
+  late File? _selectedFile;
+  late bool isVisible = true;
 
   @override
   Widget build(BuildContext context) {
@@ -91,12 +71,10 @@ class _SignUpPageState extends State<SignUpPage> {
                       height: 3,
                     ),
                     TextField(
-                      controller: null,
                       onChanged: (value) {
                         setState(() {});
                       },
                       decoration: InputDecoration(
-                          // icon: Icon(Icons.mail),
                           prefixIcon: Icon(Icons.phone),
                           suffixIcon: GestureDetector(
                               onTap: () {}, child: Icon(Icons.close)),
@@ -126,7 +104,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       height: 3,
                     ),
                     TextField(
-                      // obscureText: null,
+                      obscureText: isVisible,
                       controller: null,
                       onChanged: (value) {
                         print(value);
@@ -137,10 +115,12 @@ class _SignUpPageState extends State<SignUpPage> {
                           prefixIcon: Icon(Icons.lock),
                           suffixIcon: GestureDetector(
                               onTap: () {
-                                // isVisible = !isVisible;
+                                isVisible = !isVisible;
                                 setState(() {});
                               },
-                              child: Icon(Icons.visibility_off)),
+                              child: Icon(isVisible
+                                  ? Icons.visibility_off
+                                  : Icons.visibility)),
                           hintText: 'type your password',
                           labelText: 'Password',
                           border: OutlineInputBorder(
@@ -167,7 +147,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       height: 3,
                     ),
                     TextField(
-                      // obscureText: null,
+                      obscureText: isVisible,
                       controller: null,
                       onChanged: (value) {
                         print(value);
@@ -178,12 +158,14 @@ class _SignUpPageState extends State<SignUpPage> {
                           prefixIcon: Icon(Icons.lock),
                           suffixIcon: GestureDetector(
                               onTap: () {
-                                // isVisible = !isVisible;
+                                isVisible = !isVisible;
                                 setState(() {});
                               },
-                              child: Icon(Icons.visibility_off)),
+                              child: Icon(isVisible
+                                  ? Icons.visibility_off
+                                  : Icons.visibility)),
                           hintText: 're-enter your password',
-                          labelText: 'Re-enter Password',
+                          // labelText: 'Re-enter Password',
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(8),
                               borderSide:
@@ -257,10 +239,7 @@ class _SignUpPageState extends State<SignUpPage> {
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
             onTap: () => _selectPhoto(),
-            // child: Image(),
-            child: (
-                Image.file(tmpFile)
-            ),
+            child: Image.file(File(_selectedFile!.path), height: 250, fit: BoxFit.contain,),
           ),
 
         InkWell(
@@ -339,29 +318,60 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   Future _imagePicker(ImageSource source) async {
-    final pickedFile =
-        await _picker.pickImage(source: source, imageQuality: 50);
-    if (pickedFile == null) {
-      return;
-    }
-    var file = await ImageCropper.cropImage(
-        sourcePath: pickedFile.path,
-        aspectRatio: CropAspectRatio(ratioX: 1, ratioY: 1));
-    print('File Image ${file}');
-    if(file == null) {
-      return;
-    }
+    // File pickedFile =
+    //     (await _picker.pickImage(source: source, imageQuality: 50)) as File;
+    // if (pickedFile == null) {
+    //   return;
+    // }
+    var image = (await _picker.pickImage(source: source, imageQuality: 50));
+    if (image == null) return;
+    if(image != null){
+      var cropped = (await ImageCropper.cropImage(
+          sourcePath: image.path,
+          aspectRatioPresets: [
+            CropAspectRatioPreset.square,
+            CropAspectRatioPreset.ratio3x2,
+            CropAspectRatioPreset.original,
+            CropAspectRatioPreset.ratio4x3,
+            CropAspectRatioPreset.ratio16x9
+          ],
+          androidUiSettings: AndroidUiSettings(
+              toolbarTitle: 'Cropper',
+              toolbarColor: Colors.deepOrange,
+              toolbarWidgetColor: Colors.white,
+              initAspectRatio: CropAspectRatioPreset.original,
+              lockAspectRatio: false),
+          iosUiSettings: IOSUiSettings(
+            minimumAspectRatio: 1.0,
+          )
+      ));
 
-    file = await compressImage(file.path, 35);
+      this.setState((){
+        _selectedFile = cropped! as File;
+        imageUrl = 'image uploaded';
+      });
+    } else {
+      this.setState((){});
+    }
   }
 
   Future<File?> compressImage(String path, int quality) async {
     final newPath = p.join((await getTemporaryDirectory()).path, '${DateTime.now()}${p.extension(path)}');
-    print('newPath Image ${newPath}');
     final result = await FlutterImageCompress.compressAndGetFile(path, newPath, quality: quality);
-    setState(() {
-      tmpFile = newPath as File;
-    });
     return result;
+  }
+}
+
+class ImagePreview extends StatelessWidget {
+  final File imageFile;
+  const ImagePreview({required this.imageFile, Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Image.file(imageFile),
+      ),
+    );
   }
 }
