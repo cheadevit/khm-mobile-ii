@@ -15,15 +15,28 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  TextEditingController phoneNumberController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
   bool isVisible = true;
+  late String phone_number, pass;
+  final GlobalKey<FormState> _form = GlobalKey<FormState>();
+  final TextEditingController _phone_number = TextEditingController();
+  final TextEditingController _pass = TextEditingController();
+
+  void validate() {
+    if(_form.currentState!.validate()) {
+      print('Validated');
+    } else {
+      print('Validated');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       body: Container(
+          child: Form(
+            key: _form,
         child: Column(
           children: [
             Container(
@@ -62,22 +75,29 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(
                     height: 3,
                   ),
-                  TextField(
-                    controller: phoneNumberController,
-                    onChanged: (value) {
-                      setState(() {});
+                  TextFormField(
+                    controller: _phone_number,
+                      keyboardType: TextInputType.number,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Phone number is required';
+                      }
+                      return null;
+                    },
+                    onChanged: (String value){
+                      phone_number = value;
                     },
                     decoration: InputDecoration(
                         prefixIcon: Icon(Icons.phone),
-                        suffixIcon: phoneNumberController.text.isEmpty
+                        suffixIcon: (_phone_number.value == null)
                             ? Text('')
                             : GestureDetector(
                             onTap: () {
-                              phoneNumberController.clear();
+                              _phone_number.clear();
                             },
-                            child: Icon(Icons.close)),
+                            child: Icon(Icons.close)
+                        ),
                         hintText: 'Enter Your Phone Number',
-                        // labelText: 'Phone Number',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
                             borderSide:
@@ -101,13 +121,18 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(
                     height: 3,
                   ),
-                  TextField(
+                  TextFormField(
                     obscureText: isVisible,
-                    controller: null,
-                    onChanged: (value) {
-                      print(value);
+                    controller: _pass,
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Password is required';
+                      }
+                      return null;
                     },
-                    //
+                    onChanged: (String value){
+                      pass = value;
+                    },
                     decoration: InputDecoration(
                         prefixIcon: Icon(Icons.lock),
                         suffixIcon: GestureDetector(
@@ -160,7 +185,7 @@ class _LoginPageState extends State<LoginPage> {
             ))
           ],
         ),
-      ),
+      )),
     );
   }
 
@@ -181,8 +206,8 @@ class _LoginPageState extends State<LoginPage> {
               context,
               MaterialPageRoute(
                   builder: (context) => ForgetPasswordPage(
-                    // onFileChanged: (String imageUrl) {},
-                  )));
+                      // onFileChanged: (String imageUrl) {},
+                      )));
         },
       ),
     );
@@ -215,7 +240,9 @@ class _LoginPageState extends State<LoginPage> {
             color: Colors.white,
           ),
         ),
-        onPressed: () {},
+        onPressed: () {
+          validate();
+        },
       ),
     );
   }
