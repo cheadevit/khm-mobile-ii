@@ -221,11 +221,19 @@ class _SignUpPageState extends State<SignUpPage> {
                                       BorderSide(color: Colors.red, width: 1))),
                         ),
                         SizedBox(
-                          height: 1,
+                          height: 16,
                         ),
-                        _buildForgotPasswordButton(),
-                        const SizedBox(
-                          height: 1,
+                        Container(
+                          alignment: Alignment.centerLeft,
+                          child: const Text(
+                            'National ID Card Front',
+                            style: TextStyle(
+                              fontFamily: 'PT-Sans',
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
                         ),
                         _buildUploadImage(),
                         const SizedBox(
@@ -255,23 +263,6 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
         ),
-    );
-  }
-
-  Widget _buildForgotPasswordButton() {
-    return Container(
-      alignment: Alignment.centerRight,
-      child: TextButton(
-        child: const Text(
-          'Forgot Password?',
-          style: TextStyle(
-            fontFamily: 'PT-Sans',
-            fontSize: 14,
-            color: Colors.grey,
-          ),
-        ),
-        onPressed: () {},
-      ),
     );
   }
 

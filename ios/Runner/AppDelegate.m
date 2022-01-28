@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
 #import "GeneratedPluginRegistrant.h"
-#import "GoogleMaps/GoogleMaps.h
+#import "GoogleMaps/GoogleMaps.h"
 
 @implementation AppDelegate
 
@@ -9,7 +9,7 @@
   [GMSServices provideAPIKey:@"AIzaSyDa99CB-Lqc9JoK753evm7lrNtYm7zBUuo"];
   [GeneratedPluginRegistrant registerWithRegistry:self];
   // Override point for customization after application launch.
-  return [super  :application didFinishLaunchingWithOptions:launchOptions];
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 @end

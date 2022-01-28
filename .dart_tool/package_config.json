@@ -15,13 +15,13 @@
     },
     {
       "name": "camera",
-      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.4+6",
+      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.9.4+8",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "camera_platform_interface",
-      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/camera_platform_interface-2.1.4",
+      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/camera_platform_interface-2.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -72,6 +72,12 @@
       "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "date_range_picker",
+      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/date_range_picker-1.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "fake_async",
@@ -165,7 +171,7 @@
     },
     {
       "name": "image_picker",
-      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+4",
+      "rootUri": "file:///Users/apple/Desktop/MobileProjects/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.8.4+5",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -428,7 +434,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-01-25T02:51:58.775164Z",
+  "generated": "2022-01-27T07:30:02.260793Z",
   "generator": "pub",
   "generatorVersion": "2.15.1"
 }

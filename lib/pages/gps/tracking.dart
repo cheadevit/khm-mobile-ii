@@ -30,6 +30,9 @@ class _TrackingState extends State<Tracking> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('GMS Tracking'),
+      ),
       body: GoogleMap(
         mapType: MapType.normal,
         initialCameraPosition: _inittialCameraPosition,

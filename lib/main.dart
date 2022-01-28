@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blue/pages/gps/tracking.dart';
 import 'package:flutter_blue/pages/cards/waiting_approval.dart';
 import 'package:flutter_blue/pages/gps/vehicle_list.dart';
-
+import 'package:flutter_blue/pages/notifications/notification.dart';
 import 'package:flutter_blue/pages/item_list.dart';
 import 'package:flutter_blue/pages/profile.dart';
-import 'package:flutter_blue/pages/user_profile.dart';
-
 import 'login/login_page.dart';
 
 void main() {
@@ -45,11 +43,17 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
-  final List<Widget> _child_screen = [Tracking(), VehicleList(), MarketItem(), Profile()];
+  final List<Widget> _child_screen = [
+    VehicleList(),
+    Tracking(),
+    MarketItem(),
+    Profile()
+  ];
   final name = 'CHEA Devit';
   final email = 'devit@gmail.com';
   final date = 'Mon/01/2021';
-  final urlImage = 'https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-Image.png';
+  final urlImage =
+      'https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-Image.png';
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -75,11 +79,11 @@ class _MyHomePageState extends State<MyHomePage> {
             padding: EdgeInsets.only(right: 20.0),
             child: GestureDetector(
               onTap: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => UserProfile()));
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => NotificationPage()));
               },
               child: Icon(
-                Icons.account_circle,
+                Icons.notifications_active,
                 size: 26.0,
               ),
             ),
@@ -109,14 +113,23 @@ class _MyHomePageState extends State<MyHomePage> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(name,
-                            style: TextStyle(fontSize: 22, color: Colors.white),),
+                            Text(
+                              name,
+                              style:
+                                  TextStyle(fontSize: 22, color: Colors.white),
+                            ),
                             const SizedBox(height: 9),
-                            Text(email,
-                              style: TextStyle(fontSize: 12, color: Colors.white),),
+                            Text(
+                              email,
+                              style:
+                                  TextStyle(fontSize: 12, color: Colors.white),
+                            ),
                             const SizedBox(height: 9),
-                            Text('Date: '+date,
-                              style: TextStyle(fontSize: 12, color: Colors.white),),
+                            Text(
+                              'Date: ' + date,
+                              style:
+                                  TextStyle(fontSize: 12, color: Colors.white),
+                            ),
                           ],
                         ),
                       ],
@@ -153,14 +166,14 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Color(0xFF1A2B7A),
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.location_on_outlined),
-            backgroundColor: Colors.blue,
-            label: 'Tracking',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.map),
             backgroundColor: Colors.blue,
             label: 'GPS',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.location_on_outlined),
+            backgroundColor: Colors.blue,
+            label: 'Tracking',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business_sharp),

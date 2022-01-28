@@ -44,17 +44,16 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 
-	// This is probably the only one you need. Background location is supported
-    // by this -- the caveat is that a blue badge is shown in the status bar
-    // when the app is using location service while in the background.
-    NSLocationWhenInUseUsageDescription
+	<key>NSCameraUsageDescription</key>
+    <string>Can I use the camera please?</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Can I use the mic please?</string>
 
-    // Deprecated, use NSLocationAlwaysAndWhenInUseUsageDescription instead.
-    NSLocationAlwaysUsageDescription
-
-    // Use this very carefully. This key is required only if your iOS app
-    // uses APIs that access the user’s location information at all times,
-    // even if the app isn't running.
-    NSLocationAlwaysAndWhenInUseUsageDescription
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Can I use the location please?</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Can I always use the location please?</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Use Location during use this app.</string>
 </dict>
 </plist>

@@ -40,11 +40,12 @@ dependencies:
   location: ^4.3.0
   flutter_polyline_points: ^1.0.0
   camera: ^0.9.4+5
-  image_picker: ^0.8.4+4
-  image_cropper: ^1.4.1
   flutter_image_compress: ^1.1.0
   path_provider: ^2.0.8
   shared_preferences: ^2.0.12
+  image_picker: ^0.8.4+5
+  image_cropper: ^1.4.1
+  date_range_picker: ^1.0.7
 
 dev_dependencies:
   flutter_test:

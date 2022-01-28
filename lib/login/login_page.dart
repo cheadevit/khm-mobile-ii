@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blue/forget_password/forget_password.dart';
+import 'package:flutter_blue/main.dart';
 import 'package:flutter_blue/signup/signup.dart';
 import 'package:http/http.dart' as http;
 
@@ -21,13 +22,13 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _phone_number = TextEditingController();
   final TextEditingController _pass = TextEditingController();
 
-  void validate() {
-    if(_form.currentState!.validate()) {
-      print('Validated');
-    } else {
-      print('Validated');
-    }
-  }
+  // void validate() {
+  //   if(_form.currentState!.validate()) {
+  //     print('Validated');
+  //   } else {
+  //     print('Validated');
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -241,7 +242,14 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
         onPressed: () {
-          validate();
+          // if(_form.currentState!.validate()) {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => MyHomePage(title: "Welcome to GMS")));
+          // } else {
+          //   print('Validated');
+          // }
         },
       ),
     );
