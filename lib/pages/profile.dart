@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_blue/plugins/hex_colors.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // backgroundColor: Color(0xFFB0BEC5),
+        backgroundColor: HexColor.fromHex('#F3F4F8'),
         body: Stack(children: <Widget>[
       SingleChildScrollView(
         scrollDirection: Axis.vertical,

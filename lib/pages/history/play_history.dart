@@ -5,6 +5,7 @@ import 'package:flutter_blue/plugins/google_map_api.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
+import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
 class PlayHistoryPage extends StatefulWidget {
   const PlayHistoryPage({Key? key}) : super(key: key);
@@ -14,6 +15,7 @@ class PlayHistoryPage extends StatefulWidget {
 }
 
 class _PlayHistoryPageState extends State<PlayHistoryPage> {
+  DateRangePickerController _datePickerController = DateRangePickerController();
   LatLng sourceLocation = LatLng(28.432864, 77.002563);
   LatLng destinationLatlng = LatLng(28.431626, 77.002475);
 
@@ -179,7 +181,9 @@ class _PlayHistoryPageState extends State<PlayHistoryPage> {
             FloatingActionButton(
               elevation: 10.0,
               child: const Icon(Icons.calendar_today),
-              onPressed: () => {},
+              onPressed: () => {
+                _selectDateRange()
+              },
             ),
             const SizedBox(height: 6),
             FloatingActionButton(
@@ -195,6 +199,41 @@ class _PlayHistoryPageState extends State<PlayHistoryPage> {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  Future _selectDateRange() async {
+    await showModalBottomSheet(
+      context: context,
+      builder: (context) => BottomSheet(
+        onClosing: () => {},
+        builder: (context) => Container(
+          child: Column(
+            children: [
+              Container(
+                child: Text("ddd"),
+              ),
+              Container(
+                child: SfDateRangePicker(
+                  // onSelectionChanged: _onSelectionChanged,
+                  view: DateRangePickerView.month,
+                  selectionMode: DateRangePickerSelectionMode.range,
+                  showActionButtons: true,
+                  controller: _datePickerController,
+                  onCancel: () {
+                    _datePickerController.selectedRanges = null;
+                    Navigator.pop(context);
+                  },
+                  onSubmit: (Object? val) {
+                    print(val);
+                    Navigator.pop(context);
+                  },
+                ),
+              )
+            ],
+          )
+        )
       ),
     );
   }

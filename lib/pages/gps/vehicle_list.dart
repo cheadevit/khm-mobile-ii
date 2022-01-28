@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blue/pages/gps/tracking.dart';
 import 'package:flutter_blue/pages/history/play_history.dart';
 import 'package:flutter_blue/pages/last_location/last_location.dart';
+import 'package:flutter_blue/plugins/hex_colors.dart';
 
 class VehicleList extends StatelessWidget {
   const VehicleList({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class VehicleList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFB0BEC5),
+        backgroundColor: HexColor.fromHex('#F3F4F8'),
         body: Stack(children: <Widget>[
           SingleChildScrollView(
               // scrollDirection: Axis.vertical,

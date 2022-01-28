@@ -5,6 +5,7 @@ import 'package:flutter_blue/pages/gps/vehicle_list.dart';
 import 'package:flutter_blue/pages/notifications/notification.dart';
 import 'package:flutter_blue/pages/item_list.dart';
 import 'package:flutter_blue/pages/profile.dart';
+import 'package:flutter_blue/pages/about/about_page.dart';
 import 'login/login_page.dart';
 
 void main() {
@@ -45,10 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final List<Widget> _child_screen = [
     VehicleList(),
-    Tracking(),
-    MarketItem(),
-    Profile()
+    Profile(),
+    AboutPage(),
   ];
+
   final name = 'CHEA Devit';
   final email = 'devit@gmail.com';
   final date = 'Mon/01/2021';
@@ -63,11 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
       appBar: AppBar(
-        title: const Text('Welcome to GMS'),
-        // backgroundColor: Color(0xFF1A2B7A),
-        backgroundColor: Colors.blue,
+        title: const Text('Welcome to GMS', style: TextStyle(color: Color(0xFF424242)),),
+        iconTheme: IconThemeData(color: Colors.grey[800]),
+        backgroundColor: Colors.white,
         // shape: RoundedRectangleBorder(
         //   borderRadius: BorderRadius.vertical(
         //     bottom: Radius.circular(15),
@@ -84,7 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: Icon(
                 Icons.notifications_active,
-                size: 26.0,
+                color: Colors.grey[800],
+                size: 24.0,
               ),
             ),
           ),
@@ -98,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               DrawerHeader(
                 decoration: BoxDecoration(
-                  color: Color(0xFF1A2B7A),
+                  color: Colors.blue,
                 ),
                 child: Padding(
                   padding: EdgeInsets.all(8.0),
@@ -163,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: _child_screen[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         selectedFontSize: 12.0,
-        backgroundColor: Color(0xFF1A2B7A),
+        backgroundColor: Colors.white,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.map),
@@ -171,23 +172,16 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'GPS',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.location_on_outlined),
-            backgroundColor: Colors.blue,
-            label: 'Tracking',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.business_sharp),
-            label: 'Market',
-            backgroundColor: Colors.blue,
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',
-            backgroundColor: Colors.blue,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.info),
+            label: 'About Us',
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.black,
+        selectedItemColor: Colors.blue,
         onTap: _onItemTapped,
       ),
     );
